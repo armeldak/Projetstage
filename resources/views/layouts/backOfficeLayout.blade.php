@@ -291,7 +291,7 @@
 								<span>-- Main</span>
 							</li>
 							<li class="nav-item start active">
-								<a href="#" class="nav-link nav-toggle">
+								<a href="{{ route('tableau-de-bord')}}" class="nav-link nav-toggle">
 									<i class="material-icons">dashboard</i>
 									<span class="title">Tableau de bord</span>
 									<span class="selected"></span>
@@ -306,7 +306,7 @@
 								</a>
 								<ul class="sub-menu">
 									<li class="nav-item">
-										<a href="email_inbox.html" class="nav-link ">
+										<a href="{{ route('creer-salle')}}" class="nav-link ">
 											<span class="title">Créer une salle</span>
 										</a>
 									</li>
@@ -395,6 +395,7 @@
 			</div>
 			<!-- end sidebar menu -->
 			<!-- start page content -->
+{{--
 			<div class="page-content-wrapper">
 				<div class="page-content">
 					<div class="page-bar">
@@ -410,9 +411,23 @@
 							</ol>
 						</div>
 					</div>
-					<!-- start widget -->
+					<!-- start widget --> --}}
 
-
+                    <div class="page-content-wrapper">
+                        <div class="page-content">
+                          <div class="page-bar">
+                            <div class="page-title-breadcrumb">
+                              <div class=" pull-left">
+                @yield('titre1')              </div>
+                              <ol class="breadcrumb page-breadcrumb pull-right">
+                                <li><i class="fa fa-home"></i>&nbsp;<a class="parent-item"
+                                    href="{{ route('tableau-de-bord') }}">Accueil</a>&nbsp;<i class="fa fa-angle-right"></i>
+                                </li>
+                @yield('titre2')
+                              </ol>
+                            </div>
+                          </div>
+                @yield('content')
 					<!-- start Payment Details -->
 
 					<!-- end Payment Details -->

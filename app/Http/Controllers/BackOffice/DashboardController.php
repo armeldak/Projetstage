@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class DashboardController extends Controller
 {
     public function accueil() {
-        return view('backOffice.accueil');
+        return view('backOffice.tableau de board.accueil');
     }
 }

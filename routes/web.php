@@ -55,9 +55,16 @@ Route::group(["namespace"=>"App\Http\Controllers\FrontOffice"],function(){
 Route::group(["namespace"=>"App\Http\Controllers\BackOffice"],function(){
 
     Route::match(['get', 'post'], "/dashboard",[
-        "as" => "tableau de bord",
+        "as" => "tableau-de-bord",
         "uses" => "DashboardController@accueil"
     ]);
+
+    Route::match(['get', 'post'], "/creer-salle",[
+        "as" => "creer-salle",
+        "uses" => "SalleController@creer"
+    ]);
+
+
 
 });
 
