@@ -64,6 +64,26 @@ Route::group(["namespace"=>"App\Http\Controllers\BackOffice"],function(){
         "uses" => "SalleController@creer"
     ]);
 
+    Route::match(['get', 'post'], "/afficher-salle",[
+        "as" => "afficher-salle",
+        "uses" => "SalleController@afficher"
+    ]);
+
+    Route::post("/modfier-salle/{salle?}",[
+        "as" => "modifier-salle",
+        "uses" => "SalleController@modifier"
+    ]);
+
+    Route::get("/editer-salle/{salle?}",[
+        "as" => "editer-salle",
+        "uses" => "SalleController@editer"
+    ]);
+
+    Route::match(['get', 'post'], "/supprimer-salle",[
+        "as" => "supprimer-salle",
+        "uses" => "SalleController@supprimer"
+    ]);
+
 
 
 });

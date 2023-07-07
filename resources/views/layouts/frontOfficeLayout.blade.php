@@ -6,7 +6,7 @@
 * License: https://creativecommons.org/licenses/by/3.0/
 */ -->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="{{ asset("templateFiles/FrontOffice/css/style.css") }}" />
 
     <title>
-      Property &mdash; Free Bootstrap 5 Website Template by Untree.co
+      AGBOLAGLEVI - EVENT - MUSIC
     </title>
   </head>
   <body>

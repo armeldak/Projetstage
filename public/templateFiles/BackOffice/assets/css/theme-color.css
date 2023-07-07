@@ -2,10 +2,10 @@
  *  Document   : theme-color.css
  *  Author     : RedStar Theme
  *  Description: stylesheet for change theme color, user can set any custom color for template, User have to just replace three classes
- 	(header-white white-sidebar-color logo-indigo) with (custom-sidebar-color logo-custom header-custom) classes in template <body> tag 
+ 	(header-white white-sidebar-color logo-indigo) with (custom-sidebar-color logo-custom header-custom) classes in template <body> tag
  	and set bellow variable color as per desire. Thats It !!!!!!
  */
- 
+
  :root {
   --sidebar-color: #ffffff;
   --sidebar-font-color: #4680ff;
@@ -36,7 +36,7 @@
     border-top-color: transparent;
     color: var(--sidebar-font-color);
 }
-.custom-sidebar-color .sidemenu-container .sidemenu>li>a, 
+.custom-sidebar-color .sidemenu-container .sidemenu>li>a,
 .custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li>a{
 	color: #555;
 	border-bottom:none;
@@ -49,33 +49,33 @@
 	color: #444;
 }
 
-.custom-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before, 
-.custom-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before, 
-.custom-sidebar-color .sidemenu-container .sidemenu>li.open>a>i, 
-.custom-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before, 
-.custom-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before, 
-.custom-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i, 
-.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before, 
-.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before, 
-.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i, 
-.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before, 
-.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before, 
+.custom-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before,
+.custom-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before,
+.custom-sidebar-color .sidemenu-container .sidemenu>li.open>a>i,
+.custom-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before,
+.custom-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before,
+.custom-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i,
+.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before,
+.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before,
+.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i,
+.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before,
+.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before,
 .custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>i{
 	color: var(--sidebar-font-color);
 }
-.custom-sidebar-color .sidemenu-container .sidemenu .sub-menu, 
+.custom-sidebar-color .sidemenu-container .sidemenu .sub-menu,
 .custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu{
 	    background-color: #F5F5F5;
 }
-.custom-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a, 
+.custom-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a,
 .custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li>a{
 	color : #444;
 }
-.custom-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a, 
-.custom-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a, 
-.custom-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a, 
-.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a, 
-.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a, 
+.custom-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a,
+.custom-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a,
+.custom-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a,
+.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a,
+.custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a,
 .custom-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li:hover>a{
 	color: var(--sidebar-font-color);
 }
@@ -83,7 +83,7 @@
 	background-color : #ffffff;
 }
 .selector-title{
-	margin-top: 0px !important; 
+	margin-top: 0px !important;
 }
 .custom-sidebar-color .sidemenu-hover-submenu li:hover a>.arrow{
 	    border-right: 8px solid var(--sidebar-font-color);
@@ -116,8 +116,8 @@
     color: #efefef;
     opacity: 1;
 }
-.header-custom .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, 
-.header-custom .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, 
+.header-custom .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname,
+.header-custom .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username,
 .header-custom .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i{
 	color: #fff;
 }
@@ -131,15 +131,15 @@
 	color: #ffffff;
 	font-size: 18px;
 }
-.header-custom .page-header.navbar .hor-menu .navbar-nav>li.active>a, 
+.header-custom .page-header.navbar .hor-menu .navbar-nav>li.active>a,
 .header-custom .page-header.navbar .hor-menu .navbar-nav>li.current>a{
 	background-color: transparent;
 }
 .header-custom .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
 	background-color: transparent;
 }
-.header-custom .dropdown-menu>li.active:hover>a, 
-.header-custom .dropdown-menu>li.active>a, 
+.header-custom .dropdown-menu>li.active:hover>a,
+.header-custom .dropdown-menu>li.active>a,
 .header-custom .dropdown-menu>li:hover>a{
 	background-color: transparent;
 }
@@ -169,9 +169,9 @@
 	border-bottom:none;
 	background-color: #ffffff;
 } */
-.white-sidebar-color .sidemenu-container .sidemenu>li.open>a, 
-.white-sidebar-color .sidemenu-container .sidemenu>li:hover>a, 
-.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a, 
+.white-sidebar-color .sidemenu-container .sidemenu>li.open>a,
+.white-sidebar-color .sidemenu-container .sidemenu>li:hover>a,
+.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a,
 .white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a{
 	background-color: #F4F6F9;
     border-top-color: transparent;
@@ -179,37 +179,37 @@
 }
 .white-sidebar-color .user-panel,
 .white-sidebar-color .txtOnline,
-.white-sidebar-color .sidemenu-container .sidemenu>li>a, 
+.white-sidebar-color .sidemenu-container .sidemenu>li>a,
 .white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li>a{
 	color: #444;
 }
-.white-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before, 
-.white-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before, 
-.white-sidebar-color .sidemenu-container .sidemenu>li.open>a>i, 
-.white-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before, 
-.white-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before, 
-.white-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i, 
-.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before, 
-.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before, 
-.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i, 
-.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before, 
-.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before, 
+.white-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before,
+.white-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before,
+.white-sidebar-color .sidemenu-container .sidemenu>li.open>a>i,
+.white-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before,
+.white-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before,
+.white-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i,
+.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before,
+.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before,
+.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i,
+.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before,
+.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before,
 .white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>i{
 	color: #4680ff;
 }
-.white-sidebar-color .sidemenu-container .sidemenu .sub-menu, 
+.white-sidebar-color .sidemenu-container .sidemenu .sub-menu,
 .white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu{
 	    background-color: #F4F6F9;
 }
-.white-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a, 
+.white-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a,
 .white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li>a{
 	color : #444;
 }
-.white-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a, 
-.white-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a, 
-.white-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a, 
-.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a, 
-.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a, 
+.white-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a,
+.white-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a,
+.white-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a,
+.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a,
+.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a,
 .white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li:hover>a{
 	color: #4680ff;
 }
@@ -217,7 +217,7 @@
 	background-color : #ffffff;
 }
 .selector-title{
-	margin-top: 0px !important; 
+	margin-top: 0px !important;
 }
 .white-sidebar-color .sidemenu-hover-submenu li:hover a>.arrow{
 	    border-right: 8px solid #4680ff;
@@ -226,9 +226,9 @@
 	background-color: #F5F5F5;
 }
 .white-sidebar-color .sidemenu-container .sidemenu>li.active>a>i,
-.white-sidebar-color .sidemenu-container .sidemenu li.active>a>.arrow.open:before, 
-.white-sidebar-color .sidemenu-container .sidemenu li.active>a>.arrow:before, 
-.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu li.active>a>.arrow.open:before, 
+.white-sidebar-color .sidemenu-container .sidemenu li.active>a>.arrow.open:before,
+.white-sidebar-color .sidemenu-container .sidemenu li.active>a>.arrow:before,
+.white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu li.active>a>.arrow.open:before,
 .white-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu li.active>a>.arrow:before{
 	color: #4680ff;
 }
@@ -239,16 +239,19 @@
 /* Dark sidebar color */
 .dark-sidebar-color .sidemenu-container {
     background-color: #3a3f51;
+    TODO: MODIFICATION DE LA COULEUR #3a3f51
 }
 .dark-sidebar-color .sidemenu-container .sidemenu>li.active.open>a,
 .dark-sidebar-color .sidemenu-container .sidemenu>li.active>a,
 .dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a,
 .dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a {
-    background-color: #2e3344;
+    background-color: #3a3f51;
+    TODO: MODIFICATION DE LA COULEUR #2e3344;
+
     border-top-color: transparent;
     color: #fff;
 }
-.dark-sidebar-color .sidemenu-container .sidemenu>li>a, 
+.dark-sidebar-color .sidemenu-container .sidemenu>li>a,
 .dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li>a{
 	color: #b4b6bd;
 	border-bottom:none;
@@ -259,54 +262,54 @@
 .dark-sidebar-color .txtOnline{
 	color: #ccc;
 }
-.dark-sidebar-color .sidemenu-container .sidemenu>li.open>a, 
-.dark-sidebar-color .sidemenu-container .sidemenu>li:hover>a, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a, 
+.dark-sidebar-color .sidemenu-container .sidemenu>li.open>a,
+.dark-sidebar-color .sidemenu-container .sidemenu>li:hover>a,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a,
 .dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a {
     background-color: #343848;
     color: #fff;
 }
-.dark-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before, 
-.dark-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before, 
-.dark-sidebar-color .sidemenu-container .sidemenu>li.open>a>i, 
-.dark-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before, 
-.dark-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before, 
-.dark-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before, 
+.dark-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before,
+.dark-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before,
+.dark-sidebar-color .sidemenu-container .sidemenu>li.open>a>i,
+.dark-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before,
+.dark-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before,
+.dark-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before,
 .dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>i{
 	color: #fff;
 }
-.dark-sidebar-color .sidemenu-container .sidemenu .sub-menu, 
+.dark-sidebar-color .sidemenu-container .sidemenu .sub-menu,
 .dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu{
 	    background-color: #2e3344;
 }
-.dark-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a, 
+.dark-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a,
 .dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li>a{
 	color: rgba(255,255,255,0.5);
 }
-.dark-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a, 
-.dark-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a, 
-.dark-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a, 
+.dark-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a,
+.dark-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a,
+.dark-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a,
 .dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li:hover>a{
 	color: #fff;
 }
-.dark-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow.open:before, 
-.dark-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow:before, 
-.dark-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>i, 
-.dark-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow.open:before, 
-.dark-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow:before, 
-.dark-sidebar-color .sidemenu-container .sidemenu>li.active>a>i, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow.open:before, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow:before, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>i, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow.open:before, 
-.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow:before, 
+.dark-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow.open:before,
+.dark-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow:before,
+.dark-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>i,
+.dark-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow.open:before,
+.dark-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow:before,
+.dark-sidebar-color .sidemenu-container .sidemenu>li.active>a>i,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow.open:before,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow:before,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>i,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow.open:before,
+.dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow:before,
 .dark-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>i{
 	color: #fff;
 }
@@ -333,7 +336,7 @@
     border-top-color: transparent;
     color: #fff;
 }
-.blue-sidebar-color .sidemenu-container .sidemenu>li>a, 
+.blue-sidebar-color .sidemenu-container .sidemenu>li>a,
 .blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li>a{
 	color: rgba(255, 255, 255, 0.8);
 	border-bottom:none;
@@ -344,61 +347,61 @@
 .blue-sidebar-color .txtOnline{
 	color: #fff;
 }
-.blue-sidebar-color .sidemenu-container .sidemenu>li.open>a, 
-.blue-sidebar-color .sidemenu-container .sidemenu>li:hover>a, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a, 
+.blue-sidebar-color .sidemenu-container .sidemenu>li.open>a,
+.blue-sidebar-color .sidemenu-container .sidemenu>li:hover>a,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a,
 .blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a {
     background-color: #1880c9;
     color: #fff;
 }
-.blue-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before, 
-.blue-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before, 
-.blue-sidebar-color .sidemenu-container .sidemenu>li.open>a>i, 
-.blue-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before, 
-.blue-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before, 
-.blue-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before, 
+.blue-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before,
+.blue-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before,
+.blue-sidebar-color .sidemenu-container .sidemenu>li.open>a>i,
+.blue-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before,
+.blue-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before,
+.blue-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before,
 .blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>i{
 	color: #fff;
 }
-.blue-sidebar-color .sidemenu-container .sidemenu .sub-menu, 
+.blue-sidebar-color .sidemenu-container .sidemenu .sub-menu,
 .blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu{
 	    background-color: #186fad
 }
-.blue-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a, 
+.blue-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a,
 .blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li>a{
 	color: rgba(255, 255, 255, 0.8);
 }
-.blue-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a, 
-.blue-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a, 
-.blue-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a, 
+.blue-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a,
+.blue-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a,
+.blue-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a,
 .blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li:hover>a{
 	color: #fff;
 }
-.blue-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow.open:before, 
-.blue-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow:before, 
-.blue-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>i, 
-.blue-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow.open:before, 
-.blue-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow:before, 
-.blue-sidebar-color .sidemenu-container .sidemenu>li.active>a>i, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow.open:before, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow:before, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>i, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow.open:before, 
-.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow:before, 
+.blue-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow.open:before,
+.blue-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow:before,
+.blue-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>i,
+.blue-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow.open:before,
+.blue-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow:before,
+.blue-sidebar-color .sidemenu-container .sidemenu>li.active>a>i,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow.open:before,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow:before,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>i,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow.open:before,
+.blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow:before,
 .blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>i{
 	color: #fff;
 }
 .blue-sidebar-color .page-container{
 	background-color : #1880c9;
 }
-.blue-sidebar-color .sidemenu-container .sidemenu>li.heading>h3, 
+.blue-sidebar-color .sidemenu-container .sidemenu>li.heading>h3,
 .blue-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.heading>h3{
 	color: #fff;
 }
@@ -429,7 +432,7 @@
     border-top-color: transparent;
     color: #fff;
 }
-.indigo-sidebar-color .sidemenu-container .sidemenu>li>a, 
+.indigo-sidebar-color .sidemenu-container .sidemenu>li>a,
 .indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li>a{
 	color: rgba(255, 255, 255, 0.8);
 	border-bottom:none;
@@ -440,61 +443,61 @@
 .indigo-sidebar-color .txtOnline{
 	color: #fff;
 }
-.indigo-sidebar-color .sidemenu-container .sidemenu>li.open>a, 
-.indigo-sidebar-color .sidemenu-container .sidemenu>li:hover>a, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a, 
+.indigo-sidebar-color .sidemenu-container .sidemenu>li.open>a,
+.indigo-sidebar-color .sidemenu-container .sidemenu>li:hover>a,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a,
 .indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a {
     background-color: #6673FC;
     color: #fff;
 }
-.indigo-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before, 
-.indigo-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before, 
-.indigo-sidebar-color .sidemenu-container .sidemenu>li.open>a>i, 
-.indigo-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before, 
-.indigo-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before, 
-.indigo-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before, 
+.indigo-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before,
+.indigo-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before,
+.indigo-sidebar-color .sidemenu-container .sidemenu>li.open>a>i,
+.indigo-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before,
+.indigo-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before,
+.indigo-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before,
 .indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>i{
 	color: #fff;
 }
-.indigo-sidebar-color .sidemenu-container .sidemenu .sub-menu, 
+.indigo-sidebar-color .sidemenu-container .sidemenu .sub-menu,
 .indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu{
 	    background-color: #545ed6;
 }
-.indigo-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a, 
+.indigo-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a,
 .indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li>a{
 	color: rgba(255, 255, 255, 0.8);
 }
-.indigo-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a, 
-.indigo-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a, 
-.indigo-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a, 
+.indigo-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a,
+.indigo-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a,
+.indigo-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a,
 .indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li:hover>a{
 	color: #fff;
 }
-.indigo-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow.open:before, 
-.indigo-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow:before, 
-.indigo-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>i, 
-.indigo-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow.open:before, 
-.indigo-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow:before, 
-.indigo-sidebar-color .sidemenu-container .sidemenu>li.active>a>i, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow.open:before, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow:before, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>i, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow.open:before, 
-.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow:before, 
+.indigo-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow.open:before,
+.indigo-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow:before,
+.indigo-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>i,
+.indigo-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow.open:before,
+.indigo-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow:before,
+.indigo-sidebar-color .sidemenu-container .sidemenu>li.active>a>i,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow.open:before,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow:before,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>i,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow.open:before,
+.indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow:before,
 .indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>i{
 	color: #fff;
 }
 .indigo-sidebar-color .page-container{
 	background-color : #6673FC;
 }
-.indigo-sidebar-color .sidemenu-container .sidemenu>li.heading>h3, 
+.indigo-sidebar-color .sidemenu-container .sidemenu>li.heading>h3,
 .indigo-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.heading>h3{
 	color: #fff;
 }
@@ -524,7 +527,7 @@
     border-top-color: transparent;
     color: #fff;
 }
-.cyan-sidebar-color .sidemenu-container .sidemenu>li>a, 
+.cyan-sidebar-color .sidemenu-container .sidemenu>li>a,
 .cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li>a{
 	color: rgba(255, 255, 255, 0.8);
 	border-bottom:none;
@@ -535,61 +538,61 @@
 .cyan-sidebar-color .txtOnline{
 	color: #fff;
 }
-.cyan-sidebar-color .sidemenu-container .sidemenu>li.open>a, 
-.cyan-sidebar-color .sidemenu-container .sidemenu>li:hover>a, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a, 
+.cyan-sidebar-color .sidemenu-container .sidemenu>li.open>a,
+.cyan-sidebar-color .sidemenu-container .sidemenu>li:hover>a,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a,
 .cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a {
     background-color: #4ABAD2;
     color: #fff;
 }
-.cyan-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before, 
-.cyan-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before, 
-.cyan-sidebar-color .sidemenu-container .sidemenu>li.open>a>i, 
-.cyan-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before, 
-.cyan-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before, 
-.cyan-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before, 
+.cyan-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before,
+.cyan-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before,
+.cyan-sidebar-color .sidemenu-container .sidemenu>li.open>a>i,
+.cyan-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before,
+.cyan-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before,
+.cyan-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before,
 .cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>i{
 	color: #fff;
 }
-.cyan-sidebar-color .sidemenu-container .sidemenu .sub-menu, 
+.cyan-sidebar-color .sidemenu-container .sidemenu .sub-menu,
 .cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu{
 	    background-color: #34A3BC
 }
-.cyan-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a, 
+.cyan-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a,
 .cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li>a{
 	color: rgba(255, 255, 255, 0.8);
 }
-.cyan-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a, 
-.cyan-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a, 
-.cyan-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a, 
+.cyan-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a,
+.cyan-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a,
+.cyan-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a,
 .cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li:hover>a{
 	color: #fff;
 }
-.cyan-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow.open:before, 
-.cyan-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow:before, 
-.cyan-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>i, 
-.cyan-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow.open:before, 
-.cyan-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow:before, 
-.cyan-sidebar-color .sidemenu-container .sidemenu>li.active>a>i, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow.open:before, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow:before, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>i, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow.open:before, 
-.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow:before, 
+.cyan-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow.open:before,
+.cyan-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow:before,
+.cyan-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>i,
+.cyan-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow.open:before,
+.cyan-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow:before,
+.cyan-sidebar-color .sidemenu-container .sidemenu>li.active>a>i,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow.open:before,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow:before,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>i,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow.open:before,
+.cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow:before,
 .cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>i{
 	color: #fff;
 }
 .cyan-sidebar-color .page-container{
 	background-color : #4ABAD2;
 }
-.cyan-sidebar-color .sidemenu-container .sidemenu>li.heading>h3, 
+.cyan-sidebar-color .sidemenu-container .sidemenu>li.heading>h3,
 .cyan-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.heading>h3{
 	color: #fff;
 }
@@ -619,7 +622,7 @@
     border-top-color: transparent;
     color: #fff;
 }
-.green-sidebar-color .sidemenu-container .sidemenu>li>a, 
+.green-sidebar-color .sidemenu-container .sidemenu>li>a,
 .green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li>a{
 	color: rgba(255, 255, 255, 0.8);
 	border-bottom:none;
@@ -630,61 +633,61 @@
 .green-sidebar-color .txtOnline{
 	color: #fff;
 }
-.green-sidebar-color .sidemenu-container .sidemenu>li.open>a, 
-.green-sidebar-color .sidemenu-container .sidemenu>li:hover>a, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a, 
+.green-sidebar-color .sidemenu-container .sidemenu>li.open>a,
+.green-sidebar-color .sidemenu-container .sidemenu>li:hover>a,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a,
 .green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a {
     background-color: #3FCC7E;
     color: #fff;
 }
-.green-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before, 
-.green-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before, 
-.green-sidebar-color .sidemenu-container .sidemenu>li.open>a>i, 
-.green-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before, 
-.green-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before, 
-.green-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before, 
+.green-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before,
+.green-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before,
+.green-sidebar-color .sidemenu-container .sidemenu>li.open>a>i,
+.green-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before,
+.green-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before,
+.green-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before,
 .green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>i{
 	color: #fff;
 }
-.green-sidebar-color .sidemenu-container .sidemenu .sub-menu, 
+.green-sidebar-color .sidemenu-container .sidemenu .sub-menu,
 .green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu{
 	    background-color: #3fa961;
 }
-.green-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a, 
+.green-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a,
 .green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li>a{
 	color: rgba(255, 255, 255, 0.8);
 }
-.green-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a, 
-.green-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a, 
-.green-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a, 
+.green-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a,
+.green-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a,
+.green-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a,
 .green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li:hover>a{
 	color: #fff;
 }
-.green-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow.open:before, 
-.green-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow:before, 
-.green-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>i, 
-.green-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow.open:before, 
-.green-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow:before, 
-.green-sidebar-color .sidemenu-container .sidemenu>li.active>a>i, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow.open:before, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow:before, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>i, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow.open:before, 
-.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow:before, 
+.green-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow.open:before,
+.green-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow:before,
+.green-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>i,
+.green-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow.open:before,
+.green-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow:before,
+.green-sidebar-color .sidemenu-container .sidemenu>li.active>a>i,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow.open:before,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow:before,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>i,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow.open:before,
+.green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow:before,
 .green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>i{
 	color: #fff;
 }
 .green-sidebar-color .page-container{
 	background-color : #3FCC7E;
 }
-.green-sidebar-color .sidemenu-container .sidemenu>li.heading>h3, 
+.green-sidebar-color .sidemenu-container .sidemenu>li.heading>h3,
 .green-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.heading>h3{
 	color: #fff;
 }
@@ -714,7 +717,7 @@
     border-top-color: transparent;
     color: #fff;
 }
-.red-sidebar-color .sidemenu-container .sidemenu>li>a, 
+.red-sidebar-color .sidemenu-container .sidemenu>li>a,
 .red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li>a{
 	color: rgba(255, 255, 255, 0.8);
 	border-bottom:none;
@@ -725,61 +728,61 @@
 .red-sidebar-color .txtOnline{
 	color: #fff;
 }
-.red-sidebar-color .sidemenu-container .sidemenu>li.open>a, 
-.red-sidebar-color .sidemenu-container .sidemenu>li:hover>a, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a, 
+.red-sidebar-color .sidemenu-container .sidemenu>li.open>a,
+.red-sidebar-color .sidemenu-container .sidemenu>li:hover>a,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a,
 .red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a {
     background-color: #E44F56;
     color: #fff;
 }
-.red-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before, 
-.red-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before, 
-.red-sidebar-color .sidemenu-container .sidemenu>li.open>a>i, 
-.red-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before, 
-.red-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before, 
-.red-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before, 
+.red-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow.open:before,
+.red-sidebar-color .sidemenu-container .sidemenu>li.open>a>.arrow:before,
+.red-sidebar-color .sidemenu-container .sidemenu>li.open>a>i,
+.red-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow.open:before,
+.red-sidebar-color .sidemenu-container .sidemenu>li:hover>a>.arrow:before,
+.red-sidebar-color .sidemenu-container .sidemenu>li:hover>a>i,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow.open:before,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>.arrow:before,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.open>a>i,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow.open:before,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>.arrow:before,
 .red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li:hover>a>i{
 	color: #fff;
 }
-.red-sidebar-color .sidemenu-container .sidemenu .sub-menu, 
+.red-sidebar-color .sidemenu-container .sidemenu .sub-menu,
 .red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu{
 	    background-color: #b54b50;
 }
-.red-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a, 
+.red-sidebar-color .sidemenu-container .sidemenu .sub-menu>li>a,
 .red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li>a{
 	color: rgba(255, 255, 255, 0.8);
 }
-.red-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a, 
-.red-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a, 
-.red-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a, 
+.red-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.active>a,
+.red-sidebar-color .sidemenu-container .sidemenu .sub-menu>li.open>a,
+.red-sidebar-color .sidemenu-container .sidemenu .sub-menu>li:hover>a,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.active>a,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li.open>a,
 .red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu .sub-menu>li:hover>a{
 	color: #fff;
 }
-.red-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow.open:before, 
-.red-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow:before, 
-.red-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>i, 
-.red-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow.open:before, 
-.red-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow:before, 
-.red-sidebar-color .sidemenu-container .sidemenu>li.active>a>i, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow.open:before, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow:before, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>i, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow.open:before, 
-.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow:before, 
+.red-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow.open:before,
+.red-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>.arrow:before,
+.red-sidebar-color .sidemenu-container .sidemenu>li.active.open>a>i,
+.red-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow.open:before,
+.red-sidebar-color .sidemenu-container .sidemenu>li.active>a>.arrow:before,
+.red-sidebar-color .sidemenu-container .sidemenu>li.active>a>i,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow.open:before,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>.arrow:before,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active.open>a>i,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow.open:before,
+.red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>.arrow:before,
 .red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.active>a>i{
 	color: #fff;
 }
 .red-sidebar-color .page-container{
 	background-color : #E44F56
 }
-.red-sidebar-color .sidemenu-container .sidemenu>li.heading>h3, 
+.red-sidebar-color .sidemenu-container .sidemenu>li.heading>h3,
 .red-sidebar-color .sidemenu-closed.sidemenu-container-fixed .sidemenu-container:hover .sidemenu>li.heading>h3{
 	color: #fff;
 }
@@ -803,10 +806,11 @@
 }
 .logo-white .page-logo a{
 	color: #000;
-	
+
 }
 .logo-dark .page-header.navbar .page-logo{
-	background: #3a3f51;
+	background: #2e3344
+    /* TODO: MODIFICATION DE LA COULEUR #3a3f51 */
 }
 .logo-blue .page-header.navbar .page-logo{
 	background: #1880c9;
@@ -841,8 +845,8 @@
     margin: 12px 0 0 10px;
     border: 1px solid #bdbdbd;
 }
-.header-white .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, 
-.header-white .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, 
+.header-white .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname,
+.header-white .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username,
 .header-white .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i{
 	color: #000;
 }
@@ -884,7 +888,7 @@
 .header-white .page-header.navbar .hor-menu .navbar-nav>li.current>a>i {
     color: #4680ff;
 }
-.header-white .page-header.navbar .hor-menu .navbar-nav>li .dropdown-menu li>a, 
+.header-white .page-header.navbar .hor-menu .navbar-nav>li .dropdown-menu li>a,
 .header-white .page-header.navbar .hor-menu .navbar-nav>li .dropdown-menu li>a>i{
 	color: #444;
 }
@@ -939,8 +943,8 @@
     color: #efefef;
     opacity: 1;
 }
-.header-dark .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, 
-.header-dark .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, 
+.header-dark .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname,
+.header-dark .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username,
 .header-dark .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i{
 	color: #fff;
 }
@@ -954,15 +958,15 @@
 	color: #ffffff;
 	font-size: 18px;
 }
-.header-dark .page-header.navbar .hor-menu .navbar-nav>li.active>a, 
+.header-dark .page-header.navbar .hor-menu .navbar-nav>li.active>a,
 .header-dark .page-header.navbar .hor-menu .navbar-nav>li.current>a{
 	background-color: transparent;
 }
 .header-dark .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
 	background-color: transparent;
 }
-.header-dark .dropdown-menu>li.active:hover>a, 
-.header-dark .dropdown-menu>li.active>a, 
+.header-dark .dropdown-menu>li.active:hover>a,
+.header-dark .dropdown-menu>li.active>a,
 .header-dark .dropdown-menu>li:hover>a{
 	background-color: transparent;
 }
@@ -1000,8 +1004,8 @@
     color: #efefef;
     opacity: 1;
 }
-.header-blue .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, 
-.header-blue .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, 
+.header-blue .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname,
+.header-blue .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username,
 .header-blue .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i{
 	color: #fff;
 }
@@ -1037,7 +1041,7 @@
 .header-blue .page-header.navbar .hor-menu .navbar-nav>li.active>a,
 .header-blue .page-header.navbar .hor-menu .navbar-nav>li.current>a {
     color: #fff;
-    background: none !important; 
+    background: none !important;
 }
 .header-blue .page-header.navbar .hor-menu .navbar-nav>li.active>a>i,
 .header-blue .page-header.navbar .hor-menu .navbar-nav>li.current>a>i {
@@ -1062,8 +1066,8 @@
     color: #fff;
     background: transparent;
 }
-.header-blue .dropdown-menu>li.active:hover>a, 
-.header-blue .dropdown-menu>li.active>a, 
+.header-blue .dropdown-menu>li.active:hover>a,
+.header-blue .dropdown-menu>li.active>a,
 .header-blue .dropdown-menu>li:hover>a{
 	background-color: transparent;
 }
@@ -1100,8 +1104,8 @@
     color: #efefef;
     opacity: 1;
 }
-.header-indigo .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, 
-.header-indigo .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, 
+.header-indigo .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname,
+.header-indigo .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username,
 .header-indigo .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i{
 	color: #fff;
 }
@@ -1137,7 +1141,7 @@
 .header-indigo .page-header.navbar .hor-menu .navbar-nav>li.active>a,
 .header-indigo .page-header.navbar .hor-menu .navbar-nav>li.current>a {
     color: #fff;
-    background: none !important; 
+    background: none !important;
 }
 .header-indigo .page-header.navbar .hor-menu .navbar-nav>li.active>a>i,
 .header-indigo .page-header.navbar .hor-menu .navbar-nav>li.current>a>i {
@@ -1162,8 +1166,8 @@
     color: #fff;
     background: transparent;
 }
-.header-indigo .dropdown-menu>li.active:hover>a, 
-.header-indigo .dropdown-menu>li.active>a, 
+.header-indigo .dropdown-menu>li.active:hover>a,
+.header-indigo .dropdown-menu>li.active>a,
 .header-indigo .dropdown-menu>li:hover>a{
 	background-color: transparent;
 }
@@ -1200,8 +1204,8 @@
     color: #efefef;
     opacity: 1;
 }
-.header-cyan .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, 
-.header-cyan .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, 
+.header-cyan .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname,
+.header-cyan .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username,
 .header-cyan .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i{
 	color: #fff;
 }
@@ -1236,7 +1240,7 @@
 .header-cyan .page-header.navbar .hor-menu .navbar-nav>li.active>a,
 .header-cyan .page-header.navbar .hor-menu .navbar-nav>li.current>a {
     color: #fff;
-    background: none !important; 
+    background: none !important;
 }
 .header-cyan .page-header.navbar .hor-menu .navbar-nav>li.active>a>i,
 .header-cyan .page-header.navbar .hor-menu .navbar-nav>li.current>a>i {
@@ -1261,8 +1265,8 @@
     color: #fff;
     background: transparent;
 }
-.header-cyan .dropdown-menu>li.active:hover>a, 
-.header-cyan .dropdown-menu>li.active>a, 
+.header-cyan .dropdown-menu>li.active:hover>a,
+.header-cyan .dropdown-menu>li.active>a,
 .header-cyan .dropdown-menu>li:hover>a{
 	background-color: transparent;
 }
@@ -1299,8 +1303,8 @@
     color: #efefef;
     opacity: 1;
 }
-.header-red .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, 
-.header-red .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, 
+.header-red .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname,
+.header-red .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username,
 .header-red .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i{
 	color: #fff;
 }
@@ -1335,7 +1339,7 @@
 .header-red .page-header.navbar .hor-menu .navbar-nav>li.active>a,
 .header-red .page-header.navbar .hor-menu .navbar-nav>li.current>a {
     color: #fff;
-    background: none !important; 
+    background: none !important;
 }
 .header-red .page-header.navbar .hor-menu .navbar-nav>li.active>a>i,
 .header-red .page-header.navbar .hor-menu .navbar-nav>li.current>a>i {
@@ -1360,8 +1364,8 @@
     color: #fff;
     background: transparent;
 }
-.header-red .dropdown-menu>li.active:hover>a, 
-.header-red .dropdown-menu>li.active>a, 
+.header-red .dropdown-menu>li.active:hover>a,
+.header-red .dropdown-menu>li.active>a,
 .header-red .dropdown-menu>li:hover>a{
 	background-color: transparent;
 }
@@ -1398,8 +1402,8 @@
     color: #efefef;
     opacity: 1;
 }
-.header-green .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname, 
-.header-green .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username, 
+.header-green .page-header.navbar .top-menu .navbar-nav>li.dropdown-language>.dropdown-toggle>.langname,
+.header-green .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>.username,
 .header-green .page-header.navbar .top-menu .navbar-nav>li.dropdown-user>.dropdown-toggle>i{
 	color: #fff;
 }
@@ -1434,7 +1438,7 @@
 .header-green .page-header.navbar .hor-menu .navbar-nav>li.active>a,
 .header-green .page-header.navbar .hor-menu .navbar-nav>li.current>a {
     color: #fff;
-    background: none !important; 
+    background: none !important;
 }
 .header-green .page-header.navbar .hor-menu .navbar-nav>li.active>a>i,
 .header-green .page-header.navbar .hor-menu .navbar-nav>li.current>a>i {
@@ -1459,8 +1463,8 @@
     color: #fff;
     background: transparent;
 }
-.header-green .dropdown-menu>li.active:hover>a, 
-.header-green .dropdown-menu>li.active>a, 
+.header-green .dropdown-menu>li.active:hover>a,
+.header-green .dropdown-menu>li.active>a,
 .header-green .dropdown-menu>li:hover>a{
 	background-color: transparent;
 }

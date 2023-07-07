@@ -14,9 +14,10 @@ return new class extends Migration
         Schema::create('salles', function (Blueprint $table) {
             $table->id();
             $table->String('libelle');
-            $table->String('description');
+            $table->text('description');
             $table->integer('capacite');
             $table->String('adresse');
+            $table->String('image');
             $table->integer('prix_res');
             $table->timestamps();
         });

@@ -11,7 +11,7 @@
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<meta name="description" content="Responsive Admin Template" />
 	<meta name="author" content="SmartUniversity" />
-	<title>Spice Hotel | Bootstrap 4 Admin Dashboard Template + UI Kit</title>
+	<title>Connecté - AGBOLAGLEVI</title>
 	<!-- icons -->
 	<link href="{{ asset("templateFiles/BackOffice/assets/plugins/simple-line-icons/simple-line-icons.min.css")}}" rel="stylesheet" type="text/css" />
 	<link href="{{ asset("templateFiles/BackOffice/assets/plugins/font-awesome/css/font-awesome.min.css")}}" rel="stylesheet" type="text/css" />
@@ -44,8 +44,8 @@
 				<!-- logo start -->
 				<div class="page-logo">
 					<a href="index.html">
-						<img alt="" src="{{ asset("templateFiles/BackOffice/assets/img/logo.png")}}">
-						<span class="logo-default">Spice</span> </a>
+						<img alt="" width="50px" height="50px" src="{{ asset("templateFiles/BackOffice/assets/img/logo.png")}}">
+						<span class="logo-default">MUSIC</span> </a>
 				</div>
 				<!-- logo end -->
 				<ul class="nav navbar-nav navbar-left in">
@@ -311,7 +311,7 @@
 										</a>
 									</li>
 									<li class="nav-item">
-										<a href="email_view.html" class="nav-link ">
+										<a href={{ route('afficher-salle')}} class="nav-link ">
 											<span class="title">Afficher les salles</span>
 										</a>
 									</li>
@@ -801,7 +801,7 @@
 		<!-- end page container -->
 		<!-- start footer -->
 		<div class="page-footer">
-			<div class="page-footer-inner"> Developped by
+			<div class="page-footer-inner"> Developpé par
 				<a href="mailto:redstartheme@gmail.com" target="_top" class="makerCss">Armel DAKITSE</a>
 			</div>
 			<div class="scroll-to-top">
