@@ -95,6 +95,31 @@ Route::group(["namespace"=>"App\Http\Controllers\BackOffice"],function(){
     ]);
 
 
+//  <///////////////////////////////////////////////////////////////////////////////////////////////////
+
+//                  CONTROLLER ROLE
+
+// <////////////////////////////////////////////////////////////////////////////////////////////////////>
+
+
+
+Route::match(['get', 'post'], "/creer-role",[
+    "as" => "creer-role",
+    "uses" => "RoleController@creer"
+]);
+
+Route::match(['get', 'post'], "/afficher-role",[
+    "as" => "afficher-role",
+    "uses" => "RoleController@afficher"
+]);
+Route::post("/modifier-role/{role?}",[
+    "as" => "modifier-role",
+    "uses" => "RoleController@modifier"
+]);
+Route::get("/editer-role/{role?}",[
+    "as" => "editer-role",
+    "uses" => "RoleController@editer"
+]);
 
 });
 

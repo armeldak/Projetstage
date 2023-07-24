@@ -8,12 +8,12 @@ use Illuminate\Database\Eloquent\Model;
 class evenement extends Model
 {
     use HasFactory;
-   /* protected $fillable = [
+   protected $fillable = [
         'nom_ev',
         'description_ev',
         'date_ev',
         'duree_ev',
-    ]; */
+    ];
     public function salle(){
         return $this->belongsTo(salle::class);
     }

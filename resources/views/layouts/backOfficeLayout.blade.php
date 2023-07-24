@@ -298,6 +298,26 @@
 								</a>
 
 							</li>
+                            <li class="nav-item">
+								<a href="#" class="nav-link nav-toggle">
+									<i class="material-icons">email</i>
+									<span class="title">Role</span>
+									<span class="arrow"></span>
+								</a>
+								<ul class="sub-menu">
+									<li class="nav-item">
+										<a href="{{ route('creer-role')}}" class="nav-link ">
+											<span class="title">Créer un role</span>
+										</a>
+									</li>
+									<li class="nav-item">
+										<a href="{{ route('afficher-role')}}" class="nav-link ">
+											<span class="title">Afficher les roles</span>
+										</a>
+									</li>
+
+								</ul>
+							</li>
 							<li class="nav-item">
 								<a href="#" class="nav-link nav-toggle">
 									<i class="material-icons">email</i>

@@ -8,18 +8,18 @@ use Illuminate\Database\Eloquent\Model;
 class salle extends Model
 {
     use HasFactory;
-  /*  protected $fillable = [
+   protected $fillable = [
         'libelle',
         'description',
         'capacite',
         'adresse',
         'region',
         'ville',
-
+        'localite',
         'pays',
         'prix_res',
         'image',
-    ];*/
+    ];
 
     public function user(){
 

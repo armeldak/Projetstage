@@ -66,8 +66,6 @@ class EvenementController extends Controller
 
 
          Evenement::create([
-
-
                 'nom_ev' => $nom_ev,
                 'description_ev' =>  $description_ev,
                 'date_ev' => $date_ev,

@@ -152,9 +152,6 @@ class SalleController extends Controller
 
             $salles = DB::table('salles')
               ->get();
-
-
-
         return view('backOffice.salle.afficher', compact('salles'));
     }
 
@@ -171,7 +168,7 @@ class SalleController extends Controller
 
 
        $succes = false;
-       $messageErreur = "L'enregistrement de domaine a échoué";
+       $messageErreur = "Modification du role a échoué";
 
        try
        {

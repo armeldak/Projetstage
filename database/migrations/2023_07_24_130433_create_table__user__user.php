@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('User_User', function (Blueprint $table) {
             $table->id();
             $table->integer('id_user')->unsigned();
-            $table->integer('id_user')->unsigned();
+            $table->integer('id_user2')->unsigned();
             $table->timestamps();
         });
     }
