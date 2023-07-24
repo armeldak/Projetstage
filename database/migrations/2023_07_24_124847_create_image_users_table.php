@@ -11,7 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        //
+        Schema::create('image_users', function (Blueprint $table) {
+            $table->id();
+            $table->string('lien');
+            $table->string('type_image');
+            $table->integer('id_user')->unsigned();
+            $table->timestamps();
+        });
     }
 
     /**
@@ -19,6 +25,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('image_users');
     }
 };

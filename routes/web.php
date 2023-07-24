@@ -45,7 +45,6 @@ Route::group(["namespace"=>"App\Http\Controllers\FrontOffice"],function(){
 });
 
 
-
 //  <///////////////////////////////////////////////////////////////////////////////////////////////////
 
 //                                           ROUTE DU BACKOFFICE
